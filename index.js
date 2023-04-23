@@ -237,3 +237,4 @@ function changeNumberOfUnits(action, id, amount) {
 
   updateCart();
 }
+// update
