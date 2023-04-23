@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="shop-main">
+        <div class="products-container flex col">
+            <h3 class="title">THE SHOP</h3>
+            <div class="products flex border">
+
+                <div class="item-container flex col border">
+                    <div class="item-text flex col border">
+                        <div class="product-name">${product.title}</div>
+                        <div class="product-brand">${product.brand}</div>
+                        <div class="product-description">${product.descripton}</div>
+                    </div>
+                    <div class="item-panel flex border">
+                        <div class="price-container">
+                            <p>${product.price}$</p>
+                        </div>
+                        <div class="amount-container">
+                            <p>--0</p>
+                        </div>
+                        <div class="plus-minus-container flex col border">
+                            <div class="plus border">+</div>
+                            <div class="minus">-</div>
+                        </div>
+                        <div class="purchase-container">BUY</div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="cart-main flex col">
+            <h3 class="title">THE CART</h3>
+            <div class="cart-container flex col">
+
+            </div>
+            <div class="total-items-in-cart"></div>
+        </div>
+    </div>
+    <div></div>
+    </div>
+    <script src="products.js"></script>
+    <script src="index.js"></script>
+    <!-- comment -->
+</body>
+
+</html>
